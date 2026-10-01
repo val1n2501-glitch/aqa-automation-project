@@ -1,0 +1,13 @@
+[project]
+name = "aqa-automation-student-template"
+version = "0.1.0"
+description = "Минимальный старт самостоятельного проекта Python AQA"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "pydantic==2.11.9",
+    "pytest==8.4.2",
+    "requests==2.32.5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
